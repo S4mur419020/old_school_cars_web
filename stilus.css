@@ -1,0 +1,83 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fejléc stílus */
+header {
+    background-color: #333;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+/* Menü stílus */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tartalom stílus */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car {
+    width: 300px;
+    margin: 10px;
+}
+
+.car img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.car p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Lábléc stílus */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
